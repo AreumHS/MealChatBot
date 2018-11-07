@@ -1,9 +1,9 @@
 <?php
     function down_class($user_key){
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -31,9 +31,9 @@
         $grade = substr(preg_replace("/[^0-9]*/s", "", $message), 0, 1);
         $class = substr(preg_replace("/[^0-9]*/s", "", $message), 1, 2);
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';    
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';    
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -69,9 +69,9 @@
         $class = $data[1];
         
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
         
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
@@ -100,9 +100,9 @@
         $class = $data[1];
         
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
 
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
@@ -135,9 +135,9 @@
     
     function down_message($user_key){
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
         
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
@@ -163,9 +163,9 @@
     
     function up_message($message , $user_key){
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
         
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
@@ -200,9 +200,9 @@
         date_default_timezone_set("Asia/Seoul");
         
         $host = 'localhost';
-        $db = 'id7485398_koderapp';
-        $user = 'id7485398_koder';
-        $pass = 'codingslave';
+        $db = '<database>';
+        $user = '<user>';
+        $pass = '<password>';
         
         $data = NULL;
         $realdate = date("Y-m-d");
