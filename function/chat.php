@@ -20,4 +20,23 @@
         echo $message;
         return;
     }
+    function facebook($sender,$text, $input){
+        $message = '{"recipient":{ "id":"' . $sender . '" },"message":{';
+            if($text != NULL){    $message .= '"text": "'. $text .'",';    }
+            if($input != NULL){
+                $buttons = '"quick_replies":[';
+                for ($i = 0; $i < count($input); $i++) {
+                    $buttons = $buttons . '{
+                        "content_type":"text",
+                        "title":"'.$input[$i].'",
+                        "payload":"<DEVELOPER_DEFINED_PAYLOAD>"
+                    }';
+                    if ($i !== count($input)-1){$buttons .= ', ';}
+                }
+                $buttons = $buttons . '] ';
+                $message .= $buttons;
+            }
+            $message .= '}}';
+        return $message;
+    }
 ?>
