@@ -28,7 +28,7 @@ class Aliases:
                 )
 
         # parse json
-        with open('config/aliases.json', encoding="utf8") as f:
+        with self.aliases_file.open() as f:
             try:
                 self.aliases_seed = json.load(f)
             except:
