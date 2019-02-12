@@ -1,0 +1,53 @@
+[124.996900558] 2019-02-12 10:59:47,996 - INFO - launcher: Starting sanity checks
+[124.996900558] 2019-02-12 10:59:47,996 - INFO - launcher: Checking for Python 3.5+
+[124.996900558] 2019-02-12 10:59:47,996 - INFO - launcher: Checking console encoding
+[124.996900558] 2019-02-12 10:59:47,996 - INFO - launcher: Setting console encoding to UTF-8
+[124.996900558] 2019-02-12 10:59:47,996 - INFO - launcher: Ensuring we're in the right environment
+[140.620946884] 2019-02-12 10:59:48,012 - INFO - launcher: Adding local bins/ folder to path
+[2200.438261032] 2019-02-12 10:59:50,071 - INFO - launcher: Required checks passed.
+[2200.438261032] 2019-02-12 10:59:50,071 - INFO - launcher: Optional checks passed.
+[2200.438261032] 2019-02-12 10:59:50,071 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[5.1673774719238281] 2019-02-12 10:59:53,038 - INFO - musicbot.config | In config.py::MainThread(5268), line 127 in run_checks: Using i18n: config/i18n/kr.json
+[5.1830017566680908] 2019-02-12 10:59:53,054 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 226 in _setup_logging: Set logging level to INFO
+[5.1830017566680908] 2019-02-12 10:59:53,054 - DEBUG - musicbot.json | In json.py::MainThread(5268), line 8 in __init__: Init JSON obj with config/i18n/kr.json
+[5.2455022335052490] 2019-02-12 10:59:53,116 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 91 in __init__: Starting MusicBot 1.9.8_4
+[5.2455022335052490] 2019-02-12 10:59:53,116 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 97 in __init__: Loaded autoplaylist with 96 entries
+[8.4040007591247559] 2019-02-12 10:59:56,275 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 922 in on_ready: Connection established, ready to go.
+[8.4040007591247559] 2019-02-12 10:59:56,275 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 340 in _cache_app_info: Caching app info
+[8.6235060691833496] 2019-02-12 10:59:56,494 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 744 in _scheck_ensure_env: Ensuring data folders exist
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 760 in _scheck_server_permissions: Checking server permissions
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 764 in _scheck_autoplaylist: Auditing autoplaylist
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 768 in _scheck_configs: Validating config
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.config | In config.py::MainThread(5268), line 217 in async_validate: Validating options...
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.bot | In bot.py::MainThread(5268), line 771 in _scheck_configs: Validating permissions config
+[8.6391084194183350] 2019-02-12 10:59:56,510 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5268), line 94 in async_validate: Validating permissions...
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 939 in on_ready: Connected: 544350902648307714/음악봇#3110
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 947 in on_ready: Owner:     419449926884392962/Koder#1974
+
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 950 in on_ready: Guild List:
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 954 in on_ready:  - 봇 채널
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 997 in on_ready: Bound to text channels:
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 998 in <listcomp>:  - 봇 채널/bot-command
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1026 in on_ready: Not autojoining any voice channels
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1041 in on_ready: Options:
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1043 in on_ready:   Command prefix: .
+[8.6391084194183350] 2019-02-12 10:59:56,510 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1044 in on_ready:   Default volume: 1%
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1046 in on_ready:   Skip threshold: 1 votes or 50%
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1047 in on_ready:   Now Playing @mentions: Enabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1048 in on_ready:   Auto-Summon: Enabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1049 in on_ready:   Auto-Playlist: Enabled (order: random)
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1050 in on_ready:   Auto-Pause: Enabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1051 in on_ready:   Delete Messages: Enabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1053 in on_ready:     Delete Invoking: Disabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1054 in on_ready:   Debug Mode: Disabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1055 in on_ready:   Downloaded songs will be deleted
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1057 in on_ready:   Status message: infomation 채널에 도움말
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1058 in on_ready:   Write current songs to file: Enabled
+[8.6545510292053223] 2019-02-12 10:59:56,525 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1059 in on_ready:   Author insta-skip: Enabled
+[8.6701738834381104] 2019-02-12 10:59:56,541 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1060 in on_ready:   Embeds: Enabled
+[8.6701738834381104] 2019-02-12 10:59:56,541 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1061 in on_ready:   Spotify integration: Disabled
+[8.6701738834381104] 2019-02-12 10:59:56,541 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1062 in on_ready:   Legacy skip: Disabled
+[8.6701738834381104] 2019-02-12 10:59:56,541 - INFO - musicbot.bot | In bot.py::MainThread(5268), line 1063 in on_ready:   Leave non owners: Disabled
